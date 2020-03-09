@@ -9,7 +9,14 @@ public class Main {
 	}
 
 	private void start() {
-		System.out.println("enviando esta branch pata o git hub");
+		
+		String[] carros = {"civic","gol","palio","uno"};
+		
+		
+		
+		for(String carro : carros) {
+			System.out.println("Carro: "+ carro);
+		}
 
 	}
 
